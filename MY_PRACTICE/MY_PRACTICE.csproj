@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>MY_PRACTICE.frequency_number</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pattern of number 1 to 5cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Pattern of number 1 to 5cs" />
+  </ItemGroup>
+
+</Project>
